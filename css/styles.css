@@ -1,0 +1,72 @@
+img#about-img {
+  border-radius: 15px;
+  border: 1.5px solid #121212;
+  max-width: 100%;
+}
+
+.fab {
+  font-size: xxx-large;
+  text-decoration: none;
+}
+
+.fa-facebook-square {
+  color: #1877f2;
+}
+
+.fa-instagram-square {
+  color: #c32aa3;
+}
+
+.fa-twitter-square {
+  color: #1da1f2;
+}
+
+hr {
+  margin: 40px 0;
+}
+
+a#top-btn {
+  text-decoration: none;
+  fill: #fff;
+  color: #fff;
+}
+
+img.icon-fix {
+  margin: 23px 0;
+}
+
+div#slideshow img {
+  border-radius: 15px;
+  border: 2px solid #121212;
+}
+
+.carousel-indicators {
+  padding-bottom: 15px;
+}
+
+/* X-Small devices (portrait phones, less than 576px) No media query for `xs` since this is the default in bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 992px) {
+  div#slideshow {
+    max-width: 70%;
+    margin: auto;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  section#about {
+    width: 85%;
+    margin: 0 auto;
+  }
+  img#about-img {
+    max-width: 45%;
+  }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+
+/* XX-Large devices (larger desktops, 1400px and up) */
